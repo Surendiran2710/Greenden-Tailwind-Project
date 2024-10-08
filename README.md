@@ -17,10 +17,10 @@ Responsive Navigation Bar: A mobile-first approach was applied to the navigation
 
 This page includes a fully responsive contact form designed to collect inquiries or feedback from users. The contact form features:
 
-# Input Fields:
+Input Fields:
 Users can provide their name, email, and message in clearly labeled fields.
 
-# Validation:
+Validation:
 Basic validation has been applied to ensure required fields are filled out correctly before form submission.
 Responsive Layout: The form layout adjusts smoothly for different screen sizes, making it simple and easy to use on mobile devices
 
@@ -28,13 +28,13 @@ Responsive Layout: The form layout adjusts smoothly for different screen sizes, 
 
 The product page showcases the range of products or services Greenden offers, featuring:
 
-# Product Listings:
+Product Listings:
 Displayed in a responsive grid layout, ensuring a visually pleasing experience whether the user is on a phone, tablet, or desktop.
 
-# Product Descriptions:
+Product Descriptions:
 Each product has its description, allowing users to quickly browse and learn more about Greenden’s offerings.
 
-# Adaptive Image Scaling:
+Adaptive Image Scaling:
 Product images scale proportionately to maintain clarity and layout consistency across various screen sizes.
 
 # Technology Stack
