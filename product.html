@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <!--Tailwind SS CDN Link-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!--Responsive-Navebar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+            class="size-4 md:hidden w-5 hover:shadow-xl transform hover:-translate-y-0.5">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="#">Product</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--Search Bar-->
+
+<section>
+    <h1 class="font-bold text-4xl text-center p-4">
+        Our Products
+    </h1>
+
+    <div class="grid grid-rows-1 mx-8 my-4 md:mx-28 lg:mx-46">
+        <input type="text" class="border border-black p-2 rounded container" placeholder="Search for a  product...">
+         
+    </div>
+</section>
+
+
+
+    <!--Best seller-->
+
+    <section class="p-5 text text-center">
+       
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-3 lg:grid-cols-4">
+
+            <div>
+                <img src="./image/Product_1.png" alt="Best-Seller-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Snake Plants</h1>
+                <p>$ 10</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_2.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Combo Interior Plants</h1>
+                <p>$ 20</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_3.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">White chrysanthemum</h1>
+                <p>$ 15</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_4.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Yellow chrysanthemum</h1>
+                <p>$ 12</p>
+            </div>
+
+
+            <div>
+                <img src="./image/Product_5.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Hybrid cactus</h1>
+                <p>$ 10</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_6.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Lavender</h1>
+                <p>$ 14</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_7.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Hybrid Rose</h1>
+                <p>$ 15</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_8.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Colorful Roses</h1>
+                <p>$ 12</p>
+            </div>
+
+            
+            <div>
+                <img src="./image/Product_9.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Pansy</h1>
+                <p>$ 13</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_10.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Poppy</h1>
+                <p>$ 8</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_11.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Carnation</h1>
+                <p>$ 15</p>
+            </div>
+
+            <div>
+                <img src="./image/Product_12.png" alt="product-img"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mb-4">
+                <h1 class="text-xl">Spider Plant</h1>
+                <p>$ 12</p>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <section class="bg-green-100 p-8 mt-5 grid grid-rows-1 gap-3">
+        <h1 class="font-bold text-4xl">
+            Greenden
+        </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, sint.</p>
+        <p><a href="#">@ 2024 Greenday.com</a></p>
+    </section>
+
+
+</body>
+
+</html>
