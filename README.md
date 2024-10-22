@@ -1,8 +1,16 @@
 # Greenden-Tailwind-Project-Responsive-Website
 
-This repository contains the source code for a responsive website built for Greenden, designed using HTML and Tailwind CSS. The website is fully optimized for a seamless experience across devices of various screen sizes, ensuring it is mobile-friendly while also providing a great desktop experience. Below are the details of the main components included in this project:
+This repository contains the source code for a responsive website built for Greenden, designed using HTML, Tailwind CSS and JavaScript. The website is fully optimized for a seamless experience across devices of various screen sizes, ensuring it is mobile-friendly while also providing a great desktop experience. Below are the details of the main components included in this project:
 
-1. Home Page
+1. Dynamic Side Navbar:
+   
+A JavaScript-powered side navigation bar allows users to toggle the menu on smaller devices, providing a clean, distraction-free browsing experience while still offering quick access to the site’s main sections.
+
+2. Product Search Functionality
+   
+A product search list feature is integrated to help users find specific items quickly and efficiently. It dynamically updates the product list based on the user’s input, enhancing the overall shopping experience.
+
+3. Home Page
 
 The homepage serves as the entry point of the Greenden website. It features a clean and minimalistic design aimed at engaging visitors from the moment they arrive. Key sections of the homepage include:
 
@@ -13,7 +21,7 @@ Feature Highlights:
 A section designed to showcase the core features or services Greenden offers, using a well-organized grid system.
 Responsive Navigation Bar: A mobile-first approach was applied to the navigation bar to ensure easy access to different parts of the site, both on desktop and mobile devices.
 
-2. Contact Form
+4. Contact Form
 
 This page includes a fully responsive contact form designed to collect inquiries or feedback from users. The contact form features:
 
@@ -24,7 +32,7 @@ Validation:
 Basic validation has been applied to ensure required fields are filled out correctly before form submission.
 Responsive Layout: The form layout adjusts smoothly for different screen sizes, making it simple and easy to use on mobile devices
 
-3. Product Page
+5. Product Page
 
 The product page showcases the range of products or services Greenden offers, featuring:
 
@@ -46,6 +54,9 @@ The structure and layout of the website are built with semantic HTML, ensuring c
 # Tailwind CSS:
 
 Tailwind CSS has been used to streamline the design process, providing utility-first CSS classes that allow for fast and responsive UI development. The mobile-first approach ensures that the website is optimized for smaller screens first and scales up gracefully to larger screens.
+
+# JavaScript:
+For adding interactivity and functionality, such as the side navbar toggle and product search list filtering.
 
 # Responsiveness
 
